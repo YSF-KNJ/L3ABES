@@ -1,0 +1,87 @@
+body {
+  font-family: Cairo, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.artist-image {
+  margin-top: 20px;
+}
+
+.artist-image img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.bg-custom-color {
+  background-color: #6699cc;
+}
+
+.text-light {
+  color: #fff;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.container {
+  max-width: 960px;
+}
+
+
+
+
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons a {
+  color: #447799;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #226688;
+  text-decoration: none;
+}
+
+.text-instagram {
+  color: #C13584;
+}
+
+.text-spotify {
+  color: #1DB954;
+}
+
+.text-facebook {
+  color: #3B5998;
+}
+
+.text-youtube {
+  color: #FF0000;
+}
+
+
+
+iframe {  
+  width: 60vw; 
+  max-width: @video-width;
+  height: 60vw;    
+}
+
+iframe {
+    height: calc(@video-width * 0.5628205128205128);
+  }
+}
+
